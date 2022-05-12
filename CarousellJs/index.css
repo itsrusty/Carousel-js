@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #0a192f;
+}
+
+.swiper {
+  width: 600px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 100px auto;
+}
+
+.swiper-slide{
+  width: 100%;
+}
+
+.swiper-slide img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+  color: #fff;
+}
